@@ -1,0 +1,120 @@
+
+.fundo_header{
+    border-bottom: 3px solid var(--violeta--);
+
+}
+
+header{
+    
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 90%;
+    justify-content:space-between;    
+    background-color: #6e8268;
+}
+.logonav{
+    margin-left: 40px;
+}
+
+nav > .linksnav > ul{
+    display: flex;
+
+
+}
+nav > .linksnav > ul > li{
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+}
+
+nav > .linksnav > ul > li + li{
+    border-left: 2px solid white;
+}
+
+nav > .linksnav > ul > li > a{
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+}
+
+nav > .linksnav > ul > li > a:hover{
+    color: rgb(48, 219, 48);
+    border-bottom: 2px solid rgb(48, 219, 48);
+    transition: 0.5s;
+}
+/*fim da NAV */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.base{
+    text-align: center;
+    
+    width: 90%;
+    margin: auto;
+}
+
+/*conteúdo*/
+main{
+    width: 90%;
+    margin: auto;
+}
+h1{
+    text-align: center;
+}
+main .objetivo > h1{
+    text-align: center;
+}
+main .objetivo > p{
+    margin: auto;
+    max-width: 80%;
+}
+
+main .homeostase{
+    display: flex;
+}
+
+main .homeostase > p{
+    max-width: 700px;
+    text-align: justify;
+    margin: auto;
+}
+main .homeostase > img{
+    margin-left: 10px;
+    max-height: 200px;
+}
+
+
+
+footer .footertudo{
+    display: flex;
+    justify-content: space-around;
+}
+footer .footertudo .nada{
+    margin-top: 10px 0 3px 0;
+    
+}
+main{
+    width: 90%;
+}
+footer{
+    height: 170px;
+    margin: auto;
+    width: 90%;
+    background-color: black;
+    background-color: #6e8268;
+}
+
+footer h3{
+    color: black;
+}
+footer li{
+    color: black;
+    list-style-type: none;
+}
+
+
+
