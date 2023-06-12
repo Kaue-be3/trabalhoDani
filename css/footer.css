@@ -1,0 +1,20 @@
+footer{
+    margin: auto;
+    width: 90%;
+    background-color: black;
+    background-color: #6e8268;
+}
+footer .texto{
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+footer .creditos{
+    display: flex;
+    justify-content: space-around;
+    display: none;
+}
+footer .galeradosite > ul > li{
+    list-style: none;
+}
+

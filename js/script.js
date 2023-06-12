@@ -1,31 +1,24 @@
-let time = 5000,
-    currentImageIndex = 0,
-    images = document
-                .querySelectorAll("#slider img")
-    max = images.length;
 
-function nextImage() {
 
-    images[currentImageIndex]
-        .classList.remove("selected")
 
-    currentImageIndex++
 
-    if(currentImageIndex >= max)
-        currentImageIndex = 0
 
-    images[currentImageIndex]
-        .classList.add("selected")
+//funcao do footer
+let credito = document.getElementById("creditos")
+
+function equipe(){
+    credito.style.display = 'flex'
 }
 
-function start() {
-    setInterval(() => {
-        // troca de image
-        nextImage()
-    }, time)
+let conteudos = document.getElementById("conteudos")
+let conteudos2 = document.getElementById("conteudos2")
+let conteudos3 = document.getElementById("conteudos3")
+function abrir_fechar(){
+    conteudos.style.display = 'flex'
 }
-
-window.addEventListener("load", start)
-
-//segunda parte do teste
-
+function abrir_fechar2(){
+    conteudos2.style.display = 'flex'
+}
+function abrir_fechar3(){
+    conteudos3.style.display = 'flex'
+}

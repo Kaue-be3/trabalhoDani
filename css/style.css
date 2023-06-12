@@ -85,36 +85,42 @@ main .homeostase > p{
 main .homeostase > img{
     margin-left: 10px;
     max-height: 200px;
-}
-
-
-
-footer .footertudo{
-    display: flex;
-    justify-content: space-around;
-}
-footer .footertudo .nada{
-    margin-top: 10px 0 3px 0;
-    
+    margin-bottom: 15px;
 }
 main{
     width: 90%;
 }
-footer{
-    height: 170px;
+.conteudo .conte{
+    text-decoration: none;
+    color: black;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    max-width: 160px;
     margin: auto;
-    width: 90%;
-    background-color: black;
-    background-color: #6e8268;
+    padding: 10px;
+    border-radius: 10px;
+}
+.conteudo .conte:hover{
+    color: #6e8268;
+}
+.todoconteudo{
+    background-color: rgb(87, 53, 53);
+    height: 500px;
+    display: none;
+}
+.todoconteudo2{
+    background-color: rgb(87, 53, 53);
+    height: 500px;
+    display: none;
+}
+.todoconteudo3{
+    background-color: rgb(87, 53, 53);
+    height: 500px;
+    display: none;
 }
 
-footer h3{
-    color: black;
-}
-footer li{
-    color: black;
-    list-style-type: none;
-}
+
 
 
 
