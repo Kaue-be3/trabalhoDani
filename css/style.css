@@ -77,52 +77,35 @@ main .homeostase{
     display: flex;
     border: 1px solid;
 }
-main .posicao{
-    display: flex;
-}
+
 
 main .homeostase > p{
     max-width: 700px;
     text-align: justify;
     margin: auto;
 }
-main .homeostase > img{
-    margin-left: 10px;
-    max-height: 200px;
-    margin-bottom: 15px;
+main .homeostase > .image{
+    width: 45%;
+    height: 250px;
 }
 main{
     width: 90%;
 }
-.conteudo .conte{
-    text-decoration: none;
-    color: black;
-    border: 1px solid;
-    display: flex;
-    justify-content: center;
-    max-width: 160px;
+main .posicao{
+    margin: 15px;
+    max-width: 55%;
+}
+.conteudos{
+    background-color: #ddd;
+    text-align: justify;
+    width: 95%;
     margin: auto;
-    padding: 10px;
-    border-radius: 10px;
+    padding: 20px;
+    margin: 5PX;
+    border: 1px solid;
+    box-shadow: 10px 10px 5px #6e8268;
 }
-.conteudo .conte:hover{
-    color: #6e8268;
-}
-.todoconteudo{
-    background-color: rgb(87, 53, 53);
-    height: 500px;
-    display: none;
-}
-.todoconteudo2{
-    background-color: rgb(87, 53, 53);
-    height: 500px;
-    display: none;
-}
-.todoconteudo3{
-    background-color: rgb(87, 53, 53);
-    height: 500px;
-    display: none;
-}
+
 
 
 

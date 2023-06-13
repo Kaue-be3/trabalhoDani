@@ -12,9 +12,16 @@ footer .texto{
 footer .creditos{
     display: flex;
     justify-content: space-around;
-    display: none;
+    
 }
 footer .galeradosite > ul > li{
     list-style: none;
+}
+.equipe{
+    background-color: red;
+    z-index: 1;
+    position: absolutes;
+    left: 10px;
+    top: 10px;
 }
 
