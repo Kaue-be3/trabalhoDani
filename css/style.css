@@ -75,6 +75,10 @@ main .objetivo > p{
 
 main .homeostase{
     display: flex;
+    border: 1px solid;
+}
+main .posicao{
+    display: flex;
 }
 
 main .homeostase > p{
