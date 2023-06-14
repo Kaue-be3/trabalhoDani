@@ -1,7 +1,6 @@
 
 .fundo_header{
     border-bottom: 3px solid var(--violeta--);
-
 }
 
 header{
@@ -15,12 +14,12 @@ header{
     background-color: #6e8268;
 }
 .logonav{
-    margin-left: 40px;
+    display: block;
 }
 
 nav > .linksnav > ul{
     display: flex;
-
+    
 
 }
 nav > .linksnav > ul > li{
@@ -64,36 +63,48 @@ main{
 }
 h1{
     text-align: center;
+    color: #6e8268;
+    padding: 8px;
 }
-main .objetivo > h1{
-    text-align: center;
-}
-main .objetivo > p{
-    margin: auto;
-    max-width: 80%;
-}
+
 
 main .homeostase{
     display: flex;
     border: 1px solid;
+    background-color: #f4fce2;
 }
 
 
-main .homeostase > p{
-    max-width: 700px;
+main .homeostase  .funcao2{
+    max-width: 550px;
     text-align: justify;
     margin: auto;
+    
+}
+.linha{
+    margin-top: 20px;
+    border-top: 1px solid #6e8268;
+    padding: 10px;
+    
 }
 main .homeostase > .image{
     width: 45%;
     height: 250px;
+}
+.funcao{
+    text-decoration: none;
+    color: rgba(5, 53, 17, 0.822);
+    font-size: 20px;
+    margin-left: 10%;
+    
 }
 main{
     width: 90%;
 }
 main .posicao{
     margin: 15px;
-    max-width: 55%;
+    width: 55%;
+    
 }
 .conteudos{
     background-color: #ddd;
@@ -101,10 +112,21 @@ main .posicao{
     width: 95%;
     margin: auto;
     padding: 20px;
-    margin: 5PX;
+    margin-bottom: 5PX;
     border: 1px solid;
-    box-shadow: 10px 10px 5px #6e8268;
+    height: 1000px;
 }
+.equipe{
+    background-color: #6f737e;
+}
+.equi1{
+    background-color: #3e4b51;
+}
+.equi2{
+    background-color: #3e4b51;
+}
+
+
 
 
 
