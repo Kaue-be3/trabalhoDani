@@ -7,14 +7,42 @@ header{
     
     height: 100px;
     display: flex;
-    align-items: center;
     margin: auto;
     width: 90%;
-    justify-content:space-between;    
+    justify-content:flex-start;    
     background-color: #6e8268;
 }
-.logonav{
+.mainmenubtn {
+    background-color: #6e8268;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:20px;
+    margin-top:20px;
+}
+
+.dropdown {
+    position: relative;
     display: block;
+}
+.dropdown-child {
+    display: none;
+    background-color: #3e4b51;
+    min-width: 150px;
+}
+.dropdown-child a {
+    color: #6e8268;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+    transition: 0.5s;
+}
+.logonav{
+    margin-left: 44%;
+    position: absolute;
 }
 
 nav > .linksnav > ul{
