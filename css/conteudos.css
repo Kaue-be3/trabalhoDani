@@ -1,0 +1,49 @@
+.partehomeos{
+    display: flex;
+}
+.partehomeos img{
+    margin: auto;
+}
+.partehomeos p{
+    max-width: 600px;
+    margin: 10px 15px;
+    font-size: 20px;
+    text-align: justify;
+}
+.partealime img{
+    margin: auto;
+}
+.partealime{
+    display: flex;
+}
+.partealime p{
+    max-width: 800px;
+    margin: auto;
+}
+.partealime2{
+    display: flex;
+}
+.partealime2 img{
+    margin: auto;
+}
+.partealime2 p{
+    margin: auto;
+    max-width: 800px;
+}
+.partesuple img{
+    margin: 5px 60px;
+}
+.parteinter2 ul > li{
+    margin: 5px 40px;
+}
+.parteinter3{
+    display: flex;
+}
+.coracao {
+    display: flex;
+}
+
+.imagem3{
+    margin: auto;
+    width: 300px;
+}

@@ -37,5 +37,10 @@ function abrir33(){
 
 let equipe = document.getElementById("todaequipe")
 function verequipe(){
-    equipe.style.display = 'flex'
+    if(equipe.style.display == 'none'){
+        equipe.style.display = 'flex'
+    }
+    else{
+        equipe.style.display = 'none'
+    }
 }

@@ -4,16 +4,12 @@ html{
 body{
     background-color: #6e8268;
 }
-.fundo_header{
-    border-bottom: 3px solid var(--violeta--);
-}
 header{
     
     height: 100px;
     display: flex;
     margin: auto;
     width: 95%;
-    border: 2px solid #3e4b51;
     justify-content:space-between;    
     background-color: #6e8268;
 }
@@ -109,20 +105,33 @@ main .homeostase{
 
 
 main .homeostase  .funcao2{
-    max-width: 550px;
-    text-align: justify;
+    max-width: 550p;
     margin: auto;
+    font-size: 18px;
     
 }
 .linha{
     margin-top: 20px;
-    border-top: 1px solid #6e8268;
+    border-top: 1px solid;
     padding: 10px;
     
 }
+.parte{
+    display: flex;
+}
 main .homeostase > .image{
-    width: 45%;
-    height: 250px;
+    width: 200px;
+    margin: auto;
+    background-color: rgba(5, 53, 17, 0.822);
+    border: 1px solid;
+    padding: 0 200px;
+}
+main .homeostase > .image2{
+    width: 200px;
+    margin: auto;
+    background-color: #085831;
+    border: 1px solid;
+    padding: 0 200px;
 }
 .funcao{
     text-decoration: none;
@@ -143,6 +152,9 @@ main .posicao{
 .conteudos{
     display: none;
 }
+.parte2{
+    display: flex;
+}
 .escon{
     background-color: #ddd;
     margin: auto;
@@ -153,6 +165,7 @@ main .posicao{
 }
 .equipe{
     background-color: #6f737e;
+    display: none;
     
 }
 .equi1{
@@ -161,6 +174,9 @@ main .posicao{
 }
 .equi2{
     background-color: #3e4b51;
+}
+.image10{
+    background-color: #085831;
 }
 .setacima{
     position: fixed;
