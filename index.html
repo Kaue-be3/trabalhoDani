@@ -7,20 +7,21 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/podcast.css">
 </head>
 <body>
     <div class="fundo_header">
         <header>
             <div class="dropdown">
-                <button class="mainmenubtn">Acessar menu</button>
+                <button class="mainmenubtn">ACESSAR MENU</button>
                 <div class="dropdown-child">
-                  <p onclick="abrir()">Sistemas</p>
-                  <p onclick="abrir2()">Interacões</p>
-                  <p onclick="abrir3()">Interpretando</p>
-                  <p onclick="">Podcast</p>
+                  <a href="#conteudo4" onclick="abrir11()">Sistemas</a>
+                  <a href="#conteudo5" onclick="abrir22()">Interacões</a>
+                  <a href="#conteudo7" onclick="abrir33()">Interpretando</a>
+                  <a href="#podcastt">Podcast</a>
                 </div>
               </div>
-            <div class="logonav"><a href="#"><img src="../trabalhoDani-main/img/WhatsApp Image 2023-06-05 at 11.26.21.jpeg" alt="" width="100px" height="100px"></a></div>
+            <div class="logonav" id="topo"><a href="#"><img src="../trabalhoDani-main/img/WhatsApp Image 2023-06-05 at 11.26.21.jpeg" alt="" width="100px" height="100px"></a></div>
 
         </header>
     </div>
@@ -37,7 +38,7 @@
             <img class="image" src="img/download.jfif" alt="">
     </div>
     <div class="conteudos" id="conteudo6">
-        <div class="escon">
+        <div class="escon" id="conteudo4">
         <h1>SISTEMAS</h1>
         <h3>Sistema endócrino </h3>
         <P  class="textoconteudo">
@@ -165,7 +166,7 @@ O sistema nervoso autônomo apresenta duas divisões, a parassimpática e a simp
         </div>
         
         <div class="conteudos" id="conteudo2">
-            <div class="escon">
+            <div class="escon" id="conteudo5">
             <h1>TITULO</h1>
             <p>
                   </p>
@@ -185,7 +186,7 @@ O sistema nervoso autônomo apresenta duas divisões, a parassimpática e a simp
             <img class="image" src="img/download.jfif" alt="">
         </div>
         <div class="conteudos" id="conteudo3">
-            <div class="escon">
+            <div class="escon" id="conteudo7">
             <h1>Na teoria, aqui vai ser todo o conteudo.</h1>
             <p>
             
@@ -194,8 +195,15 @@ O sistema nervoso autônomo apresenta duas divisões, a parassimpática e a simp
         </div>
         </div>
         
+        <div id="whatsapp">
+            <a href="#topo"><img class="setacima" src="img/download 1.png" alt="" width="30px" height="40px"></a>
+        </div>
         
-        
+        <div class="podcast" id="podcastt">
+            <h1 class="texcast1">Podcast</h1>
+            <iframe class="podcat" width="560" height="315" src="https://www.youtube.com/embed/-Ce6kv_t6Rc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <p class="texcast">Para explicar melhor sobre o tema, produzimos um podcast com dois professores experts sobre o assunto acima. Cliquem no link abaixo para assistir ao nosso bate-papo</p>
+        </div>
     </main>
 
 
@@ -210,10 +218,10 @@ O sistema nervoso autônomo apresenta duas divisões, a parassimpática e a simp
 
     <footer>
         <div class="footertudo">
-            <p class="texto">Obrigado por acessar nosso site.</p>
             <div class="creditos" id="creditos">
                 <div class="galeradosite">
                     <h3>Galera do Site:</h3>
+                    <br>
                     <ul>
                         <li>Kaue Rodrigues da Silva</li>
                         <li>Arthur Silva Sombra </li>
@@ -222,15 +230,17 @@ O sistema nervoso autônomo apresenta duas divisões, a parassimpática e a simp
                 </div>
                 <div class="patrocinadora">
                     <h3>Patrocinadora:</h3>
+                    <br>
                     <img src="img/11.png" alt="" width="50px" height="50px">
                 </div>
                 <div class="vermais">
-                    <h4>Ver equipe completa</h4>
+                    <br><br>
+                    <h4 onclick="verequipe()">Ver equipe completa</h4>
                 </div>
             </div>
         </div>
     </footer>
-    <div class="equipe">
+    <div class="equipe" id="todaequipe">
         <div class="equipe1">
             <div class="equi1">
                 <img src="img/11.png" alt="" width="50px" height="50px">
@@ -316,6 +326,7 @@ O sistema nervoso autônomo apresenta duas divisões, a parassimpática e a simp
             </div>
         </div>
     </div>
+    
     <script src="js/script.js"></script>
 </body>
 </html>

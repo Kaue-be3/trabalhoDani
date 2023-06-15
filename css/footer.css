@@ -1,6 +1,7 @@
 footer{
     margin: auto;
     width: 90%;
+    border: 2px solid #3e4b51;
     background-color: black;
     background-color: #6e8268;
 }
@@ -16,12 +17,5 @@ footer .creditos{
 }
 footer .galeradosite > ul > li{
     list-style: none;
-}
-.equipe{
-    background-color: red;
-    z-index: 1;
-    position: absolutes;
-    left: 10px;
-    top: 10px;
 }
 

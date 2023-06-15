@@ -25,3 +25,17 @@ function abrir3(){
         conteudo2.style.display = "none"
     }
 }
+function abrir11(){
+    conteudo6.style.display = 'flex'
+}
+function abrir22(){
+    conteudo1.style.display = 'flex'
+}
+function abrir33(){
+    conteudo2.style.display = 'flex'
+}
+
+let equipe = document.getElementById("todaequipe")
+function verequipe(){
+    equipe.style.display = 'flex'
+}

@@ -1,5 +1,18 @@
-h1{
+
+.podcast{
+    background-color: #ddd;
     text-align: center;
-    align-items: center;
-    background-color: #;
+    margin: 10px;
+}
+.texcast{
+    max-width: 450px;
+    padding: 10px;
+    margin: auto;
+    font-size: 20px;
+}
+.texcast1{
+    max-width: 450px;
+    padding: 10px;
+    margin: auto;
+    font-size: 40px;
 }

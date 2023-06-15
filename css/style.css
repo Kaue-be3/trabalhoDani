@@ -1,15 +1,20 @@
-
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #6e8268;
+}
 .fundo_header{
     border-bottom: 3px solid var(--violeta--);
 }
-
 header{
     
     height: 100px;
     display: flex;
     margin: auto;
-    width: 90%;
-    justify-content:flex-start;    
+    width: 95%;
+    border: 2px solid #3e4b51;
+    justify-content:space-between;    
     background-color: #6e8268;
 }
 .mainmenubtn {
@@ -34,7 +39,7 @@ header{
     transition: 0.5s;
     cursor: pointer;
 }
-.dropdown-child p{
+.dropdown-child a{
     color: #6e8268;
     padding: 20px;
     text-decoration: none;
@@ -42,12 +47,8 @@ header{
 }
 .dropdown:hover .dropdown-child {
     display: block;
-    transition: 0.5s;
 }
-.logonav{
-    margin-left: 44%;
-    position: absolute;
-}
+
 
 nav > .linksnav > ul{
     display: flex;
@@ -102,7 +103,7 @@ h1{
 
 main .homeostase{
     display: flex;
-    border: 1px solid;
+    border: 1px solid #3e4b51;
     background-color: #f4fce2;
 }
 
@@ -152,12 +153,73 @@ main .posicao{
 }
 .equipe{
     background-color: #6f737e;
+    
 }
 .equi1{
     background-color: #3e4b51;
+    display: flex;
 }
 .equi2{
     background-color: #3e4b51;
+}
+.setacima{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50px;
+    text-align: center;
+    z-index: 100;
+    transition: bottom 0.3s;
+    cursor: pointer;
+}
+h4{
+    cursor: pointer;
+}
+@media (max-width: 600px) {
+    .homeostase{
+        display: flex;
+        flex-direction: column;
+    }
+    main .homeostase > .image{
+        width: 100%;
+    }
+    .podcat{
+        max-width: 497.5px;
+    }
+}
+@media (min-width: 500px ) and (max-width: 600px) {
+    .homeostase{
+        display: flex;
+        flex-direction: column;
+    }
+    main .homeostase .posicao{
+        max-width: 500px;
+        width: 400px;
+        margin: 0 auto;
+    }
+    main .homeostase > .image{
+        width: 100%;
+    }
+    .podcat{
+        max-width: 300px;
+    }
+}
+@media (min-width: 300px) and (max-width: 499px) {
+    .homeostase{
+        display: flex;
+        flex-direction: column;
+    }
+    main .homeostase .posicao{
+        max-width: 500px;
+        width: 400px;
+        margin: 0 auto;
+    }
+    main .homeostase > .image{
+        width: 100%;
+    }
+    .podcat{
+        max-width: 300px;
+    }
 }
 
 
