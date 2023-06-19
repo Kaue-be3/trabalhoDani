@@ -192,6 +192,15 @@ h4{
     cursor: pointer;
 }
 @media (max-width: 600px) {
+    main .image2{
+        display: none;
+    }
+    main .image3{
+        display: none;
+    }
+    main .image10{
+        display: none;
+    }
     .homeostase{
         display: flex;
         flex-direction: column;
@@ -204,6 +213,15 @@ h4{
     }
 }
 @media (min-width: 500px ) and (max-width: 600px) {
+    main .image2{
+        display: none;
+    }
+    main .image3{
+        display: none;
+    }
+    main .image10{
+        display: none;
+    }
     .homeostase{
         display: flex;
         flex-direction: column;
@@ -221,6 +239,15 @@ h4{
     }
 }
 @media (min-width: 300px) and (max-width: 499px) {
+    main .image2{
+        display: none;
+    }
+    main .image3{
+        display: none;
+    }
+    main .image10{
+        display: none;
+    }
     .homeostase{
         display: flex;
         flex-direction: column;
