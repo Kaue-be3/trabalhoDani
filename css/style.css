@@ -165,18 +165,21 @@ main .posicao{
 }
 .equipe{
     background-color: #6f737e;
+    gap: 2rem;
     display: none;
     
 }
 .equi1{
     background-color: #3e4b51;
     display: flex;
+    
 }
 .equi2{
     background-color: #3e4b51;
 }
 .image10{
     background-color: #085831;
+    margin: 20px 0;
 }
 .setacima{
     position: fixed;
@@ -191,7 +194,59 @@ main .posicao{
 h4{
     cursor: pointer;
 }
-@media (max-width: 600px) {
+@media (max-width: 900px){
+    main .parte{
+        flex-direction: column;
+    }
+    main .homeostase .funcao2{
+        max-width: 800px;
+        text-align: center;
+    }
+    main .parteinter .parteinter3 > img{
+        margin: auto;
+    }
+    main .parteinter .parteinter3{
+        flex-direction: column;
+    }
+    main .image2{
+        display: none;
+    }
+    main .image3{
+        display: none;
+    }
+    main .image10{
+        display: none;
+    }
+    .homeostase{
+        display: flex;
+        flex-direction: column;
+    }
+    main .homeostase > .image{
+        width: 100%;
+    }
+    .podcat{
+        max-width: 600.5px;
+    }
+    main .partesuple img{
+        margin: 0;
+    }
+}
+@media (max-width: 601px) {
+    main .parteinter .parteinter3 > img{
+        margin: auto;
+    }
+    main .parteinter .parteinter3{
+        flex-direction: column;
+    }
+    main .homeostase{
+        width: 90%;
+    }
+    main .parte{
+        flex-direction: column;
+    }
+    main .homeostase .funcao2{
+        text-align: center;
+    }
     main .image2{
         display: none;
     }
@@ -211,8 +266,27 @@ h4{
     .podcat{
         max-width: 497.5px;
     }
+    main .partesuple img{
+        margin: 0;
+    }
 }
 @media (min-width: 500px ) and (max-width: 600px) {
+    main .parteinter .parteinter3 > img{
+        margin: auto;
+    }
+    main .parteinter .parteinter3{
+        flex-direction: column;
+    }
+    main .homeostase{
+        width: 90%;
+    }
+    main .parte{
+        flex-direction: column;
+    }
+    main .homeostase .funcao2{
+        max-width: 500px;
+        text-align: center;
+    }
     main .image2{
         display: none;
     }
@@ -222,10 +296,7 @@ h4{
     main .image10{
         display: none;
     }
-    .homeostase{
-        display: flex;
-        flex-direction: column;
-    }
+    
     main .homeostase .posicao{
         max-width: 500px;
         width: 400px;
@@ -236,9 +307,31 @@ h4{
     }
     .podcat{
         max-width: 300px;
+    }
+    main .partesuple img{
+        margin: 0;
     }
 }
 @media (min-width: 300px) and (max-width: 499px) {
+    main .parteinter .parteinter3 > img{
+        margin: auto;
+    }
+    main .parteinter .parteinter3{
+        flex-direction: column;
+    }
+    main .homeostase{
+        width: 100%;
+    }
+    main .parte{
+        flex-direction: column;
+    }
+    main .parte .listasorga{
+        width: 350px;
+    }
+    main .homeostase .funcao2{
+        max-width: 300px;
+        text-align: center;
+    }
     main .image2{
         display: none;
     }
@@ -262,6 +355,9 @@ h4{
     }
     .podcat{
         max-width: 300px;
+    }
+    main .partesuple img{
+        margin: 0;
     }
 }
 
