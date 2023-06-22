@@ -149,7 +149,7 @@ main .posicao{
     
 }
 .conteudos{
-    
+    display: none;
 }
 .parte2{
     display: flex;
@@ -216,6 +216,7 @@ h4{
     main .homeostase .funcao2{
         width: 80%;
         margin: auto;
+        text-align: center;
     }
     main .homeostase .funcao{
         width: 100%;
